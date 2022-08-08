@@ -84,11 +84,11 @@ body{
 }
 
 .header__logo {
-	margin: 0 0 0 32px;
+	margin: 0 20px 0 20px;
 }
 
 .header__menu {
-	margin: 0 20px 0 340px;
+	margin: 0 20px 0 0;
 }
 
 .menu {}
@@ -255,8 +255,8 @@ body{
 
 .card__body {
 	position: absolute;
-	width: 500px;
 	left: 30px;
+	right: 32px;
 	bottom: 10px;
 }
 
@@ -289,7 +289,7 @@ body{
 }
 
 .card__button-text{
-	padding: 7px 10px 13px 3px;
+	padding: 7px 10px 7px 3px;
 }
 
 .card__button-circle{
