@@ -353,22 +353,21 @@ body{
 }
 
 .tools__pic {
+	background: url(../img/tools/tools.jpg) center no-repeat;
+	background-size: cover;
 	display: flex;
 	flex: 0 1 50%;
 }
 
-.tools__pic img {
-	width: 100%;
+.block-tools__container {
 }
-
-.block-tools__container {}
 
 .container {}
 
 .tools-description {}
 
 .tools__body {
-	padding: 173px 106px 0 100px;
+	padding: 173px 0 0 0;
 }
 
 .tools__body-subtitle {
@@ -402,7 +401,7 @@ body{
 	width: 143px;
 	height: 42px;
 	border-radius: 15px / 15px;
-	margin: 0px 0 97px 0px;
+	margin: 0px 0 106px 0px;
 	border: 1px solid #000000;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
