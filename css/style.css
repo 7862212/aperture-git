@@ -1,4 +1,3 @@
-
 /*Обнуление*/
 *{
 	padding: 0;
@@ -44,6 +43,7 @@ body{
 	font-size: 14px;
 	font-weight: 400;
 }
+
 .wrapper{
 	min-height: 100%;
 	overflow: hidden;
@@ -91,8 +91,7 @@ body{
 	margin: 0 20px 0 340px;
 }
 
-.menu {
-}
+.menu {}
 
 .menu__list {
 	display: flex;
@@ -114,8 +113,10 @@ body{
 }
 
 .header-button{
-	display: inline-block;
-	width: 155px;
+	display: flex;
+	align-items: center;
+	max-width: 155px;
+	width: 100%;
 	height: 42px;
 	padding: 9px 20px 9px 20px;
 	background: #FFFFFF;
@@ -229,11 +230,9 @@ body{
 	color: #C0C0C0;
 }
 
-.activity__cards {
-}
+.activity__cards {}
 
-.card {
-}
+.card {}
 
 .card__photography{
 	position: relative;
@@ -335,21 +334,29 @@ body{
 
 .mount-fuji__icon-text {}
 
-/* -------------------------------------------------------------TOOLS */
+/* ------------------------------------------------------------------- */
+/* -------------------------------TOOLS------------------------------ */
+/* ----------------------------------------------------------------- */
 
-.tools {
-	/*background: black url(../img/tools/tools.jpg) right no-repeat;*/
-}
+.tools {}
 
 .tools__fon {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .tools__fon-black {
 	background: black;
 	display: flex;
 	flex: 0 1 50%;
+}
+
+.block-tools__container-fon-black {
+	max-width: 584px;
+	padding: 0 0 0 15px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: content-box;
 }
 
 .tools__pic {
@@ -359,15 +366,19 @@ body{
 	flex: 0 1 50%;
 }
 
-.block-tools__container {
+.block-tools__container-pic {
+	padding: 0 15px 0 0;
+	max-width: 584px;
+	padding: 0 0 0 15px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: content-box;
 }
-
-.container {}
 
 .tools-description {}
 
 .tools__body {
-	padding: 173px 0 0 0;
+	padding: 173px 0px 153px 0px;
 }
 
 .tools__body-subtitle {
@@ -387,7 +398,7 @@ body{
 }
 
 .tools__body-text {
-	width: 455px;
+	width: 87%;
 	font-size: 14px;
 	line-height: 20px;
 	color: #C0C0C0;
@@ -401,7 +412,6 @@ body{
 	width: 143px;
 	height: 42px;
 	border-radius: 15px / 15px;
-	margin: 0px 0 106px 0px;
 	border: 1px solid #000000;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -418,13 +428,15 @@ body{
 
 .tools__button-text {}
 
-.tools__icons {}
+.tools__icons {
+	padding-top: 484px;
+}
 
 .tools__icon {}
 
 .tools__icon-text {}
 
-/* -------------------------------------------------------------TOOLS */
+/* -------------------------------------------------------------MONSTERA-LEAFT */
 
 .block__monstera-leafs {}
 
@@ -503,7 +515,7 @@ body{
 
 .himalayas {
 	background: url(../img/Himalayas/Himalayas.jpg) no-repeat center;
-		background-size: cover;
+	background-size: cover;
 }
 
 .himalayas__body {
@@ -593,36 +605,47 @@ body{
 .footer {
 	background: black;
 }
+
 .footer__container {
 }
+
 .footer__header {
 	display: flex;
 }
+
 .footer__header-logo {
 	padding: 100px 5px 36px 0;
 	margin-right: 270px;
 }
+
 .footer__header-logo img{
 	margin-bottom: 20px;
 }
+
 .footer__header-logo-text {
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
 	color: #C0C0C0;
 }
+
 .footer__header-menu {
 	display: flex;
 	justify-content: flex-end;
-	padding: 100px 5px 36px 0;
+	padding: 100px 0 36px 0;
+	margin-left: auto;
 }
+
 .header-menu__navigation-business {
 	margin-right: 55px;
 }
+
 .navigation-business__list {
 }
+
 .navigation-business__item {
 }
+
 .navigation-business__item-business {
 	font-size: 14px;
 	line-height: 20px;
@@ -631,20 +654,24 @@ body{
 	color: #C0C0C0;
 	margin-bottom: 10px;
 }
+
 .navigation-business__link {
 	font-size: 14px;
 	line-height: 20px;
 	color: #FFFFFF;
 }
+
 .navigation-business__item:not(:last-child){
 	margin-bottom: 10px;
 }
+
 .header-menu__navigation-pages {
+	margin-right: 106px;
 }
-.navigation-pages__list {
-}
-.navigation-pages__item {
-}
+
+.navigation-pages__list {}
+
+.navigation-pages__item {}
 
 .navigation-pages__item:not(:last-child) {
 	margin-bottom: 10px;
@@ -670,12 +697,12 @@ body{
 	border-bottom: 2px solid #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 
 .block-newsletter__body {
 	padding: 36px 0 36px 0;
-	width: 690px;
 }
 
 .body__body-title {
@@ -695,8 +722,9 @@ body{
 
 .block-newsletter__button {
 	justify-content: end;
-	margin: 40px 0 40px 0;
-	width: 458px;
+	margin: 40px 25px 40px 0;
+	max-width: 458px;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	background: #fff;
@@ -733,7 +761,7 @@ body{
 }
 
 .block-licensing__social {
-	margin: 56px 5px 100px 0;
+	margin: 56px 20px 100px 0;
 }
 
 .social__icon {}
