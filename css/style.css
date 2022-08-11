@@ -545,13 +545,17 @@ body{
 
 .block-help__container {}
 
-.help__body {
+.container {}
+
+.help__body {}
+
+.body-help {
 	padding: 120px 0 100px 0;
 	width: 530px;
 	margin: 0 auto;
 }
 
-.help__body-title {
+.body-help__title {
 	font-size: 40px;
 	line-height: 42px;
 	text-align: center;
@@ -559,7 +563,7 @@ body{
 	margin-bottom: 15px;
 }
 
-.help__body-subtitle {
+.body-help__subtitle {
 	font-size: 24px;
 	line-height: 30px;
 	text-align: center;
@@ -567,13 +571,11 @@ body{
 	margin-bottom: 22px;
 }
 
-.help__body-button {
+.body-help__button {
 	margin: 0 auto;
 }
 
-.button {}
-
-.help__body-button-circle {
+.body-help__button_circle {
 	border-radius: 13px;
 	background: black;
 	width: 32px;
@@ -583,7 +585,7 @@ body{
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.help__body-button-text {
+.help__body-button_text {
 	font-size: 16px;
 	line-height: 20px;
 	text-align: center;
